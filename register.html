@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<body>
+    <nav class="nav-bar">
+        <div class="logo-nav">
+            <img src="download (1).png" alt="Logo">
+            <span>Inaingo Global</span>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <form action="#">
+        <input type="text" placeholder="first name" required>
+        <input type="text" placeholder="last name" required id="namw">
+        <input type="text" placeholder="username" required id="username">
+        <input type="email" placeholder="email" required>
+        <input type="tel" placeholder="phone number" required>
+  <div class="age-container">
+    <label for="age">Enter your age:</label>
+    <input type="number" id="age" name="age">
+  </div>
+        <input type="password" id="password" placeholder="password" required>
+        <input type="password" id="confirm-password" placeholder="re-enter password" required>
+        <button type="submit" onclick="checkAge(document.getElementById('age').value)">Register</button>
+    </form>
+    
+    <footer>
+
+  <a href="#">Privacy Policy</a>
+  <a href="#">Contact</a>
+  <p>
+     &copy; 2025 Your Company. All rights reserved.
+  </p>
+</footer>
+</body>
+</html>
