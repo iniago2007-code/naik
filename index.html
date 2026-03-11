@@ -1,46 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body >
+import React, { useState } from "react";
+import Search from "./components/Search";
 
-  <body>
-    <nav class="nav-bar">
-        <div class="logo-nav">
+function App() {
+  return (
+    <div>
+      <h1>Africa Production Recommender</h1>
+      <Search />
+    </div>
+  );
+}
 
-            <img src="download (1).png" alt="Logo">
-            <span>Inaingo Global</span>
-        </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
-    </nav>
-   
-    <!-- ...existing code... -->
-<div class="card">
-    <img src="download (1).png" alt="Card Image">
-    <h2>INAINGO GLOBAL</h2>
-    <p>You can business with us in low quantity.</p>
-    <button><h3><a href="login.html">Login</a></h3>></button>
-</div>
-<!-- ...existing code... -->
- 
-
-<footer>
-
-  <a href="#">Privacy Policy</a>
-  <a href="#">Contact</a>
-  <p>
-     &copy; 2025 Your Company. All rights reserved.
-  </p>
-</footer>
-</body>
-</html>
+export default App;
